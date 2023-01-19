@@ -1,10 +1,11 @@
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
+import Card from './Card'; //the concept of composition(Children props)
 
 function ExpenseItem(props) {
 
   return (
-    <div className="expense-item">
+    <Card className="expense-item">
       <ExpenseDate date={props.date} />
       {/* passing data through different components via props */}
       {/* here passing data from App to ExpenseDate via ExpenseItem */}
@@ -12,7 +13,7 @@ function ExpenseItem(props) {
         <h2>{props.title}</h2>
         <div className="expense-item__price">{props.amount}</div>
       </div>
-    </div>);
+    </Card>);
 }
 
 export default ExpenseItem;
