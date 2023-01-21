@@ -1,6 +1,6 @@
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
-import Card from './Card'; //the concept of composition(Children props)
+import Card from '../UI/Card'; //the concept of composition(Children props)
 
 function ExpenseItem(props) {
 

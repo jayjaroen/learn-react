@@ -1,0 +1,7 @@
+1. In the past, react projects need to import React from React in all your react component
+(in all files you use jsx)
+
+2. React.createElement() method take three arguments: ( import React from React)
+1) the element that should be created (for example, a div), pass in a string with the name of that agrument
+2) an object that configure this element
+3) content between opening and closing tag ( can be a long list of agruments)
