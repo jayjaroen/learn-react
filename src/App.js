@@ -1,5 +1,7 @@
 import Expenses from "./components/Expenses/Expenses";
 
+// arrow funtion (alernative to write code)
+// const App = () => {}
 function App() {
   const expenses = [
     {
