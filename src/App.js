@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 // arrow funtion (alernative to write code)
 // const App = () => {}
@@ -26,7 +27,7 @@ function App() {
   ];
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense />
       {/* can be self-closing tag, if there's no content between openning and closing tags, below it works both way */}
       {/* ExpenseItem component using the date data in the app component */}
       <Expenses expenses={expenses} />
